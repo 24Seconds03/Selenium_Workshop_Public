@@ -24,8 +24,6 @@ def homepage_smoke_test():
 
         # Assert 2: H1-Überschrift prüfen
 
-        # Assert 3: Navigationslink 'Studium' existiert und ist sichtbar
-
         print("✅ Homepage-Smoke-Test erfolgreich!")
     finally:
         # Cleanup: Browser schließen
