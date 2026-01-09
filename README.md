@@ -22,7 +22,7 @@ Diese Anleitung führt dich durch alle notwendigen Schritte, um das Workshop-Pro
 
 ### 3.1 Python-Version prüfen
 
-1. Terminal / Eingabeaufforderung öffnen  
+1. Terminal / Eingabeaufforderung öffnen
 2. Befehl eingeben:
 
 ```bash
@@ -54,7 +54,7 @@ python --version
 ## 4. Projekt klonen (Git)
 
 1. Terminal öffnen
-2. In ein Verzeichnis wechseln, in dem du arbeiten willst 
+2. In ein Verzeichnis wechseln, in dem du arbeiten willst
 3. Repository klonen:
 
 ```bash
@@ -94,6 +94,18 @@ Alternativ kann auch Conda verwendet werden.
 
 ## 6. Abhängigkeiten installieren (requirements.txt)
 
+Sicherstellen, dass pip installiert ist:
+
+```bash
+pip --version
+```
+
+Falls pip nicht installiert ist, installieren mit:
+
+```bash
+python -m ensurepip --upgrade
+```
+
 Mit aktivierter virtueller Umgebung:
 
 ```bash
@@ -118,7 +130,19 @@ python check_selenium_test.py
 
 ---
 
-## 8. Häufige Probleme und Lösungen
+## 8. VS Code: Python Extensions installieren
+
+In den VS Code Extensions -> Python
+Folgende Extenisions installieren:
+
+- Python Debugger
+- Python
+- Pylance
+- Python Environments
+
+Stelle sicher, dass die Nutzereinstellung "python.useEnvironmentsExtension": true gesetzt ist.
+
+## 9. Häufige Probleme und Lösungen
 
 | Problem | Lösung |
 |---------|--------|
